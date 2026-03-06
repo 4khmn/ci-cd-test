@@ -27,7 +27,6 @@ public class MainController {
 
     @GetMapping("/courses/{id}")
     public CourseDto getCourseById(@PathVariable Long id) {
-        return courseService.getById(id);
     }
 
     @GetMapping("/students")
