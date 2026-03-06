@@ -1,0 +1,3 @@
+@echo off
+echo Запуск приложения с загрузкой тестовых данных...
+mvn spring-boot:run "-Dspring-boot.run.profiles=seed"
