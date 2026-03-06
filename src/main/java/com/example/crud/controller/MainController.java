@@ -21,6 +21,7 @@ public class MainController {
 
     @GetMapping("/courses")
     public List<CourseDto> getAllCourses() {
+        log.info("GET /courses - fetching all courses");
         return courseService.getAll();
     }
 
